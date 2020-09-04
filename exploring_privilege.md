@@ -78,7 +78,7 @@ This curve gives the percentage of accepted applicants that would not have been 
 Yet we know that the students applying to Harvard are not just random students.
 Those that apply to Harvard are among the best students that have graduated from high school.
 So because of our assumption our perspective is limited; we are ignoring the fact that these students have already proven themselves against another larger group.
-But how can we know the distribution of work ethic and privilege of the students that have applied?
+But how can we know the work ethic and privilege of the students that have applied, given this wider view?
 
 One way to approximate the distribution is to modify the simulation.
 Let consider all the students that graduated in 2019.
@@ -88,6 +88,7 @@ Since there are 370,000 students above the 90th percentile, we will then choose 
 These randomly chosen students will be the applicants, and from that group we will select the 1,085 best scoring students as those admitted into Harvard.
 
 The goal of this procedure is to simulate the appropriate distribution of work ethic and privilege of the applicants to Harvard, so that we can better understand the effects of privilege on who gets admitted into Harvard.
+I again, for every value of bias I ran the simulation 1,000 times.
 
 As we can see, and should have expected, the effects of privilege are accentuated when we take into account the effects of privilege on those that even apply to Harvard. 
 The mean privilege of those admitted is very high, even for extraordinarily small values of bias.
